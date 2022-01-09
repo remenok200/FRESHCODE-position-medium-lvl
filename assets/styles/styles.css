@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.icons {
+    position: absolute;
+    margin-left: 320px;
+}
+
+.main-block {
+    display: inline-block;
+    width: 30%;
+    padding: 3%;
+    font-weight: 900;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Margin-top section */
+.mt-medium {
+    margin-top: 10px;
+}
+
+.mt-larger {
+    margin-top: 25px;
+}
+/* End margin-top section */
+
+/* Block colors section */
+.color-first-block {
+    background: linear-gradient(90deg, rgba(254,190,154,1) 0%, rgba(255,130,152,1) 100%);
+}
+.color-second-block {
+    background: linear-gradient(90deg, rgba(133,196,243,1) 0%, rgba(27,145,228,1) 100%);
+}
+.color-third-block {
+    background: linear-gradient(90deg, rgba(116,218,208,1) 0%, rgba(5,209,186,1) 100%);
+}
+/* End block colors section */
+
+/* Circles-sections */
+.upper-circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    left: 260px;
+    top: -180px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.bottom-circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    left: 220px;
+    top: 85px;
+    background: rgba(255, 255, 255, 0.3);
+
+    overflow: hidden;
+}
+/* End circles sections */
